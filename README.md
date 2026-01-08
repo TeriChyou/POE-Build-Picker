@@ -18,7 +18,7 @@
 1.  **Clone 此專案**
     ```bash
     git clone https://github.com/TeriChyou/POE-Build-Picker.git
-    cd repo名字
+    cd 你clone的資料夾位置名稱
     ```
 
 2.  **安裝依賴套件**
