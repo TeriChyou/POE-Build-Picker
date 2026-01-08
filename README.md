@@ -45,3 +45,9 @@ python init_data.py
 python gui.py
 ```
 啟動後即可開始抽籤。
+
+## Pack.rar
+
+有已經打包好現成的.exe檔案，可以單純下載Pack.rar
+先執行UpdateData.exe之後再開啟主程式PoeBuildPicker.exe
+請勿刪除icon.ico 不然會執行失敗，每次大改的時候記得更新技能
