@@ -35,7 +35,7 @@
 **第一步：初始化資料庫**
 首次使用或需要更新資料時，請執行：
 ```bash
-python database.py
+python init_data.py
 ```
 這會啟動 Chrome (背景模式) 爬取資料並建立 poe_builds.db。
 
