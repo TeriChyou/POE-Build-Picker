@@ -1,3 +1,7 @@
 __pycache__/
 *.db
 .venv
+build
+dist
+PoeBuildPicker.spec
+UpdateData.spec
