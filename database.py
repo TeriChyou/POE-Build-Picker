@@ -90,6 +90,17 @@ class PoeDatabase:
                 "link": r[2]
             })
         return gems
+    
+    def clear_all_data(self):
+        """
+        清空所有資料表 (用於語言切換或強制更新時)
+        """
+        self.cursor.execute("DELETE FROM ascendancies")
+        self.cursor.execute("DELETE FROM skill_gems")
+        # 選擇性：重置 ID 計數器 (讓 ID 從 1 開始)
+        self.cursor.execute("DELETE FROM sqlite_sequence WHERE name='ascendancies'")
+        self.cursor.execute("DELETE FROM sqlite_sequence WHERE name='skill_gems'")
+        self.conn.commit()
 
     def close(self):
         self.conn.close()

@@ -5,3 +5,4 @@ build
 dist
 PoeBuildPicker.spec
 UpdateData.spec
+config.json
